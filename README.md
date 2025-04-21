@@ -37,3 +37,8 @@ For the purpose of this tutorial, we'll be making a shell script to look for a f
 Here are some other helpful tutorial links:
 1. [FreeCodeCamp: Shell Scripting Crash Course](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
 2. [GeeksForGeeks: Shell Script Examples](https://www.geeksforgeeks.org/shell-script-examples/)
+
+# Shell script vs Makefile?
+As a random side note, having used Makefiles in classes, I did wonder if they were the same as shell scripts, and if they were substitutes for one another?
+
+A very interesting point is that Makefiles actually [check for changes to dependencies](https://stackoverflow.com/questions/3798562/why-use-make-over-a-shell-script), whereas shell scripts just run the commands -- unless you want to encode that logic in yourself. Very cool!
