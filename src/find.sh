@@ -12,7 +12,7 @@ list_alldir(){
             echo $file
         fi                      # Denotes end of conditionals
     done
-}   
+}
 
 # Check number of arguments (Eg. ./find Desktop means we have 1 argument)
 if [ $# -gt 0 ]; then 
@@ -20,3 +20,8 @@ if [ $# -gt 0 ]; then
 else
     list_alldir "."
 fi
+
+echo "\n--Understanding how {} works--\n"
+for file in {random,more_scripts}/*; do
+    echo "$file"
+done

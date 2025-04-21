@@ -4,4 +4,9 @@
 ./more_scripts/loop.sh
 ./pipe.sh
 ./random
+./random/foo.md
 ./random/foo.txt
+random/foo.md
+random/foo.txt
+more_scripts/calculate.sh
+more_scripts/loop.sh
